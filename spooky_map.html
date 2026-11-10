@@ -1,0 +1,2300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0ad811a25be991dd10767d8d58d872dd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0ad811a25be991dd10767d8d58d872dd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0ad811a25be991dd10767d8d58d872dd = L.map(
+                "map_0ad811a25be991dd10767d8d58d872dd",
+                {
+                    center: [35.5, 128.8],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6d7618fab22b1d695e9b8b14986214f8 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Tiles \u0026copy; Esri \u0026mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6d7618fab22b1d695e9b8b14986214f8.addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            tile_layer_6d7618fab22b1d695e9b8b14986214f8.addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var marker_44f2b36f644c5371c34c63d36d67db97 = L.marker(
+                [37.3497, 127.3099],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_2c337b1664e981dd2a1623236fedad31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b56744271e5aa365afbd4b5cdf118bd7 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_252134e1bca2786533e9516213b68fb4 = $(`<div id="html_252134e1bca2786533e9516213b68fb4" style="width: 100.0%; height: 100.0%;"><b>곤지암 정신병원 터</b><br>영화 곤지암 배경</div>`)[0];
+                popup_b56744271e5aa365afbd4b5cdf118bd7.setContent(html_252134e1bca2786533e9516213b68fb4);
+            
+        
+
+        marker_44f2b36f644c5371c34c63d36d67db97.bindPopup(popup_b56744271e5aa365afbd4b5cdf118bd7)
+        ;
+
+        
+    
+    
+            marker_44f2b36f644c5371c34c63d36d67db97.bindTooltip(
+                `<div>
+                     곤지암 정신병원 터
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_44f2b36f644c5371c34c63d36d67db97.setIcon(icon_2c337b1664e981dd2a1623236fedad31);
+            
+    
+            var marker_35e5ec2294dce490c8ed1346fb375e45 = L.marker(
+                [36.2895, 129.3756],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_1d616ae131ce88cfb12633a9c467d870 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_046e894fff75efd531a6cd0d6ca36e1d = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_acd50e1c7aa05294152157ceb2a844ab = $(`<div id="html_acd50e1c7aa05294152157ceb2a844ab" style="width: 100.0%; height: 100.0%;"><b>영덕 흉가(장사리 옛 모텔)</b><br>국내 3대 흉가로 자주 거론</div>`)[0];
+                popup_046e894fff75efd531a6cd0d6ca36e1d.setContent(html_acd50e1c7aa05294152157ceb2a844ab);
+            
+        
+
+        marker_35e5ec2294dce490c8ed1346fb375e45.bindPopup(popup_046e894fff75efd531a6cd0d6ca36e1d)
+        ;
+
+        
+    
+    
+            marker_35e5ec2294dce490c8ed1346fb375e45.bindTooltip(
+                `<div>
+                     영덕 흉가(장사리 옛 모텔)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_35e5ec2294dce490c8ed1346fb375e45.setIcon(icon_1d616ae131ce88cfb12633a9c467d870);
+            
+    
+            var marker_145edb605f63156489c20f8a7714b388 = L.marker(
+                [37.718, 126.945],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_001821335fba75a5775dc538bd05ec4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_38a49026c16c9b5aa3913fecef69bb32 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_d89011b32eca9065e2fc04f7e51b6783 = $(`<div id="html_d89011b32eca9065e2fc04f7e51b6783" style="width: 100.0%; height: 100.0%;"><b>장흥 흉가</b><br>유원지 인근 폐가 괴담</div>`)[0];
+                popup_38a49026c16c9b5aa3913fecef69bb32.setContent(html_d89011b32eca9065e2fc04f7e51b6783);
+            
+        
+
+        marker_145edb605f63156489c20f8a7714b388.bindPopup(popup_38a49026c16c9b5aa3913fecef69bb32)
+        ;
+
+        
+    
+    
+            marker_145edb605f63156489c20f8a7714b388.bindTooltip(
+                `<div>
+                     장흥 흉가
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_145edb605f63156489c20f8a7714b388.setIcon(icon_001821335fba75a5775dc538bd05ec4e);
+            
+    
+            var marker_ed5b6c395036fc532e8126a212f1b5fc = L.marker(
+                [37.661, 127.013],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_12c13a60e8ecef580d98184959db410e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e5bbdf9efae433c8880c9bf70789a0f2 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_ba4720b8b17e21df8ba58e6c79985e5d = $(`<div id="html_ba4720b8b17e21df8ba58e6c79985e5d" style="width: 100.0%; height: 100.0%;"><b>우이동 흉가</b><br>옛 유원지 건물 괴담</div>`)[0];
+                popup_e5bbdf9efae433c8880c9bf70789a0f2.setContent(html_ba4720b8b17e21df8ba58e6c79985e5d);
+            
+        
+
+        marker_ed5b6c395036fc532e8126a212f1b5fc.bindPopup(popup_e5bbdf9efae433c8880c9bf70789a0f2)
+        ;
+
+        
+    
+    
+            marker_ed5b6c395036fc532e8126a212f1b5fc.bindTooltip(
+                `<div>
+                     우이동 흉가
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ed5b6c395036fc532e8126a212f1b5fc.setIcon(icon_12c13a60e8ecef580d98184959db410e);
+            
+    
+            var marker_75197589c8c65ee2307687c5f39e636e = L.marker(
+                [37.412, 126.66],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_684904a0c28441b76bb054fabcbdc333 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af49a14db3821f83ca75635157223d48 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_7a224f0cbd60f3e3ffe3e9b6bcc277a0 = $(`<div id="html_7a224f0cbd60f3e3ffe3e9b6bcc277a0" style="width: 100.0%; height: 100.0%;"><b>송도유원지 터</b><br>폐유원지</div>`)[0];
+                popup_af49a14db3821f83ca75635157223d48.setContent(html_7a224f0cbd60f3e3ffe3e9b6bcc277a0);
+            
+        
+
+        marker_75197589c8c65ee2307687c5f39e636e.bindPopup(popup_af49a14db3821f83ca75635157223d48)
+        ;
+
+        
+    
+    
+            marker_75197589c8c65ee2307687c5f39e636e.bindTooltip(
+                `<div>
+                     송도유원지 터
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_75197589c8c65ee2307687c5f39e636e.setIcon(icon_684904a0c28441b76bb054fabcbdc333);
+            
+    
+            var marker_6f102c565b13a4035bfce714a7164a7c = L.marker(
+                [37.426, 126.8665],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_c607232ace200cdfb04b71a7765b0e1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b589fbe3709a9d3046954cd2b75f47a1 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_280f0243637108c71a9f61093a61b487 = $(`<div id="html_280f0243637108c71a9f61093a61b487" style="width: 100.0%; height: 100.0%;"><b>광명동굴(옛 시흥광산)</b><br>폐광을 관광지로 재개발</div>`)[0];
+                popup_b589fbe3709a9d3046954cd2b75f47a1.setContent(html_280f0243637108c71a9f61093a61b487);
+            
+        
+
+        marker_6f102c565b13a4035bfce714a7164a7c.bindPopup(popup_b589fbe3709a9d3046954cd2b75f47a1)
+        ;
+
+        
+    
+    
+            marker_6f102c565b13a4035bfce714a7164a7c.bindTooltip(
+                `<div>
+                     광명동굴(옛 시흥광산)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6f102c565b13a4035bfce714a7164a7c.setIcon(icon_c607232ace200cdfb04b71a7765b0e1e);
+            
+    
+            var marker_981e429d4a16b475f76ad21a4a53c316 = L.marker(
+                [37.5743, 126.9561],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_223444ffef2b1dc46621407d8acfae95 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_963b2f7c246ba58bee33657cfc5fe2d4 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_78f19dd55c37ba2641d8a1a16fabb3d8 = $(`<div id="html_78f19dd55c37ba2641d8a1a16fabb3d8" style="width: 100.0%; height: 100.0%;"><b>서대문형무소역사관</b><br>일제강점기 감옥·사형장</div>`)[0];
+                popup_963b2f7c246ba58bee33657cfc5fe2d4.setContent(html_78f19dd55c37ba2641d8a1a16fabb3d8);
+            
+        
+
+        marker_981e429d4a16b475f76ad21a4a53c316.bindPopup(popup_963b2f7c246ba58bee33657cfc5fe2d4)
+        ;
+
+        
+    
+    
+            marker_981e429d4a16b475f76ad21a4a53c316.bindTooltip(
+                `<div>
+                     서대문형무소역사관
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_981e429d4a16b475f76ad21a4a53c316.setIcon(icon_223444ffef2b1dc46621407d8acfae95);
+            
+    
+            var marker_3908c69f575efb6f5417d9b9241a8fd1 = L.marker(
+                [37.5602, 126.9688],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_dbd33fb1e4b706554b92c216ddb30995 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e90e8efb17745f8a99dfbe161054ab83 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_eec609f4dd4d46be8d97fbfa1d0530e9 = $(`<div id="html_eec609f4dd4d46be8d97fbfa1d0530e9" style="width: 100.0%; height: 100.0%;"><b>서소문역사공원</b><br>조선시대 처형장</div>`)[0];
+                popup_e90e8efb17745f8a99dfbe161054ab83.setContent(html_eec609f4dd4d46be8d97fbfa1d0530e9);
+            
+        
+
+        marker_3908c69f575efb6f5417d9b9241a8fd1.bindPopup(popup_e90e8efb17745f8a99dfbe161054ab83)
+        ;
+
+        
+    
+    
+            marker_3908c69f575efb6f5417d9b9241a8fd1.bindTooltip(
+                `<div>
+                     서소문역사공원
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3908c69f575efb6f5417d9b9241a8fd1.setIcon(icon_dbd33fb1e4b706554b92c216ddb30995);
+            
+    
+            var marker_76651ae3a0a72e9f9d948c0dccdc7ef5 = L.marker(
+                [37.5303, 126.959],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_8fc7f1be7eb9574ec5f5f783adb86e93 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81041c3a27833eeef68c220da13c34e9 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_4b9afe1c8c6af0a23878beed417d9d3c = $(`<div id="html_4b9afe1c8c6af0a23878beed417d9d3c" style="width: 100.0%; height: 100.0%;"><b>새남터 순교성지</b><br>조선시대 군문효수 처형지</div>`)[0];
+                popup_81041c3a27833eeef68c220da13c34e9.setContent(html_4b9afe1c8c6af0a23878beed417d9d3c);
+            
+        
+
+        marker_76651ae3a0a72e9f9d948c0dccdc7ef5.bindPopup(popup_81041c3a27833eeef68c220da13c34e9)
+        ;
+
+        
+    
+    
+            marker_76651ae3a0a72e9f9d948c0dccdc7ef5.bindTooltip(
+                `<div>
+                     새남터 순교성지
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_76651ae3a0a72e9f9d948c0dccdc7ef5.setIcon(icon_8fc7f1be7eb9574ec5f5f783adb86e93);
+            
+    
+            var marker_e75eb827d2de9f69775def5102c0ca63 = L.marker(
+                [37.5469, 126.91],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_0acdd5d9c0406734d2dabccc8305f91f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6ca3094c73e8cb4c7970cc690761afc = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_4511ade029f2b89252ffcba729a396ca = $(`<div id="html_4511ade029f2b89252ffcba729a396ca" style="width: 100.0%; height: 100.0%;"><b>절두산 순교성지</b><br>병인박해 처형지</div>`)[0];
+                popup_b6ca3094c73e8cb4c7970cc690761afc.setContent(html_4511ade029f2b89252ffcba729a396ca);
+            
+        
+
+        marker_e75eb827d2de9f69775def5102c0ca63.bindPopup(popup_b6ca3094c73e8cb4c7970cc690761afc)
+        ;
+
+        
+    
+    
+            marker_e75eb827d2de9f69775def5102c0ca63.bindTooltip(
+                `<div>
+                     절두산 순교성지
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e75eb827d2de9f69775def5102c0ca63.setIcon(icon_0acdd5d9c0406734d2dabccc8305f91f);
+            
+    
+            var marker_3f98996854fa4c2839886e83af1a7993 = L.marker(
+                [37.5126, 126.95],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_379a26d7ac39dfdc886595de80398516 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a91054e0e3d0754f5c8fcb1eb50f775 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_d38f99b51164cc33249a9003680ba3d1 = $(`<div id="html_d38f99b51164cc33249a9003680ba3d1" style="width: 100.0%; height: 100.0%;"><b>사육신묘</b><br>사육신 묘역</div>`)[0];
+                popup_4a91054e0e3d0754f5c8fcb1eb50f775.setContent(html_d38f99b51164cc33249a9003680ba3d1);
+            
+        
+
+        marker_3f98996854fa4c2839886e83af1a7993.bindPopup(popup_4a91054e0e3d0754f5c8fcb1eb50f775)
+        ;
+
+        
+    
+    
+            marker_3f98996854fa4c2839886e83af1a7993.bindTooltip(
+                `<div>
+                     사육신묘
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3f98996854fa4c2839886e83af1a7993.setIcon(icon_379a26d7ac39dfdc886595de80398516);
+            
+    
+            var marker_3b44656b442c3a606e2e17a0254c4e41 = L.marker(
+                [37.5588, 126.9862],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_9c4998e3ba6d9f751839795a8194e1df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6169d543eb5982bd74d2262f1a8ae271 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_ea4560206f5b4ee20f54220d35a0d0d2 = $(`<div id="html_ea4560206f5b4ee20f54220d35a0d0d2" style="width: 100.0%; height: 100.0%;"><b>남산 옛 안기부 터(예장자락)</b><br>옛 중앙정보부 취조실 자리</div>`)[0];
+                popup_6169d543eb5982bd74d2262f1a8ae271.setContent(html_ea4560206f5b4ee20f54220d35a0d0d2);
+            
+        
+
+        marker_3b44656b442c3a606e2e17a0254c4e41.bindPopup(popup_6169d543eb5982bd74d2262f1a8ae271)
+        ;
+
+        
+    
+    
+            marker_3b44656b442c3a606e2e17a0254c4e41.bindTooltip(
+                `<div>
+                     남산 옛 안기부 터(예장자락)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3b44656b442c3a606e2e17a0254c4e41.setIcon(icon_9c4998e3ba6d9f751839795a8194e1df);
+            
+    
+            var marker_6c1c0a4fb3f11b38c9f07784fd6272da = L.marker(
+                [37.5713, 126.9683],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_16f156ade155c5e589fdbbc542c91043 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac0311e466237f30e558827bd61bd291 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_491ce787bffcbcb923c75ec33a4c7f34 = $(`<div id="html_491ce787bffcbcb923c75ec33a4c7f34" style="width: 100.0%; height: 100.0%;"><b>경희궁 방공호</b><br>일제강점기 지하 방공호</div>`)[0];
+                popup_ac0311e466237f30e558827bd61bd291.setContent(html_491ce787bffcbcb923c75ec33a4c7f34);
+            
+        
+
+        marker_6c1c0a4fb3f11b38c9f07784fd6272da.bindPopup(popup_ac0311e466237f30e558827bd61bd291)
+        ;
+
+        
+    
+    
+            marker_6c1c0a4fb3f11b38c9f07784fd6272da.bindTooltip(
+                `<div>
+                     경희궁 방공호
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6c1c0a4fb3f11b38c9f07784fd6272da.setIcon(icon_16f156ade155c5e589fdbbc542c91043);
+            
+    
+            var marker_dee782bc68a95c54814a1cfe3b8f57bf = L.marker(
+                [37.5947, 127.1079],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_6334a2f6cc3f416701c714a0e564c568 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91b2c60226805ba7ea55aaf7daf2a3de = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_1c961ae3ea8e178d230bb0ee3f536bf1 = $(`<div id="html_1c961ae3ea8e178d230bb0ee3f536bf1" style="width: 100.0%; height: 100.0%;"><b>망우역사문화공원</b><br>옛 공동묘지</div>`)[0];
+                popup_91b2c60226805ba7ea55aaf7daf2a3de.setContent(html_1c961ae3ea8e178d230bb0ee3f536bf1);
+            
+        
+
+        marker_dee782bc68a95c54814a1cfe3b8f57bf.bindPopup(popup_91b2c60226805ba7ea55aaf7daf2a3de)
+        ;
+
+        
+    
+    
+            marker_dee782bc68a95c54814a1cfe3b8f57bf.bindTooltip(
+                `<div>
+                     망우역사문화공원
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dee782bc68a95c54814a1cfe3b8f57bf.setIcon(icon_6334a2f6cc3f416701c714a0e564c568);
+            
+    
+            var marker_4e2eda1602499662976203c6ac055220 = L.marker(
+                [37.4785, 127.182],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_167e616a94d5dd54607f0d6deb94e987 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a696eab32b74aa3eca52e36dcba88d2a = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_b5bd9e9e56c368b8fd6e7331e9d3bec4 = $(`<div id="html_b5bd9e9e56c368b8fd6e7331e9d3bec4" style="width: 100.0%; height: 100.0%;"><b>남한산성</b><br>병자호란 항전지</div>`)[0];
+                popup_a696eab32b74aa3eca52e36dcba88d2a.setContent(html_b5bd9e9e56c368b8fd6e7331e9d3bec4);
+            
+        
+
+        marker_4e2eda1602499662976203c6ac055220.bindPopup(popup_a696eab32b74aa3eca52e36dcba88d2a)
+        ;
+
+        
+    
+    
+            marker_4e2eda1602499662976203c6ac055220.bindTooltip(
+                `<div>
+                     남한산성
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4e2eda1602499662976203c6ac055220.setIcon(icon_167e616a94d5dd54607f0d6deb94e987);
+            
+    
+            var marker_d2de303e071cf26e8ef26b71703d68f7 = L.marker(
+                [37.955, 126.947],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_69bc06d6fe52f61ca8bd3c1a75539290 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f30cf8c2901085e3cb1a7893836ea8c6 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_0e236eb6d34b4ed20820ebb5f2fa96cd = $(`<div id="html_0e236eb6d34b4ed20820ebb5f2fa96cd" style="width: 100.0%; height: 100.0%;"><b>파주 북한군 묘지</b><br>적군묘지</div>`)[0];
+                popup_f30cf8c2901085e3cb1a7893836ea8c6.setContent(html_0e236eb6d34b4ed20820ebb5f2fa96cd);
+            
+        
+
+        marker_d2de303e071cf26e8ef26b71703d68f7.bindPopup(popup_f30cf8c2901085e3cb1a7893836ea8c6)
+        ;
+
+        
+    
+    
+            marker_d2de303e071cf26e8ef26b71703d68f7.bindTooltip(
+                `<div>
+                     파주 북한군 묘지
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d2de303e071cf26e8ef26b71703d68f7.setIcon(icon_69bc06d6fe52f61ca8bd3c1a75539290);
+            
+    
+            var marker_10edae070bdee10e1615953d4832e7e9 = L.marker(
+                [38.238, 127.2111],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_5847504a7c3e8494e984e093e8af1922 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_938f18554fae5dcfbcf07f510f3c448d = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_0bbdd21120d3d43812137776b1ea5647 = $(`<div id="html_0bbdd21120d3d43812137776b1ea5647" style="width: 100.0%; height: 100.0%;"><b>철원 노동당사</b><br>한국전쟁 전 북한 노동당 청사</div>`)[0];
+                popup_938f18554fae5dcfbcf07f510f3c448d.setContent(html_0bbdd21120d3d43812137776b1ea5647);
+            
+        
+
+        marker_10edae070bdee10e1615953d4832e7e9.bindPopup(popup_938f18554fae5dcfbcf07f510f3c448d)
+        ;
+
+        
+    
+    
+            marker_10edae070bdee10e1615953d4832e7e9.bindTooltip(
+                `<div>
+                     철원 노동당사
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_10edae070bdee10e1615953d4832e7e9.setIcon(icon_5847504a7c3e8494e984e093e8af1922);
+            
+    
+            var marker_3043f00402f3777b0c5bcc32b3d877f5 = L.marker(
+                [38.256, 127.16],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_792900f6aaa9d64acfe01c8f64711b6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56e5c2021d7b98b75155c9bcf7c1da18 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_f0da96e7adcc55c68842d60ef97aabc7 = $(`<div id="html_f0da96e7adcc55c68842d60ef97aabc7" style="width: 100.0%; height: 100.0%;"><b>백마고지 전적지</b><br>한국전쟁 격전지</div>`)[0];
+                popup_56e5c2021d7b98b75155c9bcf7c1da18.setContent(html_f0da96e7adcc55c68842d60ef97aabc7);
+            
+        
+
+        marker_3043f00402f3777b0c5bcc32b3d877f5.bindPopup(popup_56e5c2021d7b98b75155c9bcf7c1da18)
+        ;
+
+        
+    
+    
+            marker_3043f00402f3777b0c5bcc32b3d877f5.bindTooltip(
+                `<div>
+                     백마고지 전적지
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3043f00402f3777b0c5bcc32b3d877f5.setIcon(icon_792900f6aaa9d64acfe01c8f64711b6f);
+            
+    
+            var marker_fba63a858c49f6aa7557abd796bf2835 = L.marker(
+                [38.11, 127.83],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_16f0761313c7f28b48b63b65f48a6c60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6ed65310fe52b3612f1fa51021dd669 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_06d59438bed0d643c867b88bdaf50960 = $(`<div id="html_06d59438bed0d643c867b88bdaf50960" style="width: 100.0%; height: 100.0%;"><b>파로호</b><br>한국전쟁 중공군 대규모 전사지</div>`)[0];
+                popup_f6ed65310fe52b3612f1fa51021dd669.setContent(html_06d59438bed0d643c867b88bdaf50960);
+            
+        
+
+        marker_fba63a858c49f6aa7557abd796bf2835.bindPopup(popup_f6ed65310fe52b3612f1fa51021dd669)
+        ;
+
+        
+    
+    
+            marker_fba63a858c49f6aa7557abd796bf2835.bindTooltip(
+                `<div>
+                     파로호
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fba63a858c49f6aa7557abd796bf2835.setIcon(icon_16f0761313c7f28b48b63b65f48a6c60);
+            
+    
+            var marker_3013e4a42363a03d50c713124e4d6954 = L.marker(
+                [36.993, 127.922],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_8a56f3ebe9d05dbb4d41e168c2c30134 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de7267e8c69a87bbceb662426c534a57 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_611a5197daceb452933a8f0f0766d011 = $(`<div id="html_611a5197daceb452933a8f0f0766d011" style="width: 100.0%; height: 100.0%;"><b>충주 탄금대</b><br>임진왜란 신립 장군 배수진</div>`)[0];
+                popup_de7267e8c69a87bbceb662426c534a57.setContent(html_611a5197daceb452933a8f0f0766d011);
+            
+        
+
+        marker_3013e4a42363a03d50c713124e4d6954.bindPopup(popup_de7267e8c69a87bbceb662426c534a57)
+        ;
+
+        
+    
+    
+            marker_3013e4a42363a03d50c713124e4d6954.bindTooltip(
+                `<div>
+                     충주 탄금대
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3013e4a42363a03d50c713124e4d6954.setIcon(icon_8a56f3ebe9d05dbb4d41e168c2c30134);
+            
+    
+            var marker_1b23f70d0d33b9e74358de04f6b73a94 = L.marker(
+                [36.7135, 126.5487],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_a5559c12d744d6174aba060e9a30911c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3618be31cbfdbb5b2c821a8108a44b1 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_e30dce2ed42e0cdc11d0ab93ab67a900 = $(`<div id="html_e30dce2ed42e0cdc11d0ab93ab67a900" style="width: 100.0%; height: 100.0%;"><b>해미읍성</b><br>천주교 순교 회화나무</div>`)[0];
+                popup_d3618be31cbfdbb5b2c821a8108a44b1.setContent(html_e30dce2ed42e0cdc11d0ab93ab67a900);
+            
+        
+
+        marker_1b23f70d0d33b9e74358de04f6b73a94.bindPopup(popup_d3618be31cbfdbb5b2c821a8108a44b1)
+        ;
+
+        
+    
+    
+            marker_1b23f70d0d33b9e74358de04f6b73a94.bindTooltip(
+                `<div>
+                     해미읍성
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1b23f70d0d33b9e74358de04f6b73a94.setIcon(icon_a5559c12d744d6174aba060e9a30911c);
+            
+    
+            var marker_262ea039bf261f5db233a571495cb426 = L.marker(
+                [36.1172, 127.4935],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_3431870e2ed6057fcb4761bb42ae17f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78161bb96e8c30517115ad0e3b2f5553 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_3399a6d0b2ff92c035f85273e03c9152 = $(`<div id="html_3399a6d0b2ff92c035f85273e03c9152" style="width: 100.0%; height: 100.0%;"><b>금산 칠백의총</b><br>임진왜란 의병 700명 무덤</div>`)[0];
+                popup_78161bb96e8c30517115ad0e3b2f5553.setContent(html_3399a6d0b2ff92c035f85273e03c9152);
+            
+        
+
+        marker_262ea039bf261f5db233a571495cb426.bindPopup(popup_78161bb96e8c30517115ad0e3b2f5553)
+        ;
+
+        
+    
+    
+            marker_262ea039bf261f5db233a571495cb426.bindTooltip(
+                `<div>
+                     금산 칠백의총
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_262ea039bf261f5db233a571495cb426.setIcon(icon_3431870e2ed6057fcb4761bb42ae17f8);
+            
+    
+            var marker_80621ced6f42a1c67d9fcb97c5308202 = L.marker(
+                [35.387, 127.406],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_c9f8fbc1ffed5e1e288bb869d16722e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81facdcf00f2c0f9663653306988e2b9 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_d71b11199733c9676c4a8557ebf901f5 = $(`<div id="html_d71b11199733c9676c4a8557ebf901f5" style="width: 100.0%; height: 100.0%;"><b>남원 만인의총</b><br>정유재란 순절자 합장묘</div>`)[0];
+                popup_81facdcf00f2c0f9663653306988e2b9.setContent(html_d71b11199733c9676c4a8557ebf901f5);
+            
+        
+
+        marker_80621ced6f42a1c67d9fcb97c5308202.bindPopup(popup_81facdcf00f2c0f9663653306988e2b9)
+        ;
+
+        
+    
+    
+            marker_80621ced6f42a1c67d9fcb97c5308202.bindTooltip(
+                `<div>
+                     남원 만인의총
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_80621ced6f42a1c67d9fcb97c5308202.setIcon(icon_c9f8fbc1ffed5e1e288bb869d16722e8);
+            
+    
+            var marker_eccf49009bdb0c24e549628334959c5a = L.marker(
+                [35.1897, 128.079],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_cfa044451f28144a35613a74996b9f56 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7da518893e52d2ff3105421bc539e65 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_5477fb74432dc649743dcb40314a32d0 = $(`<div id="html_5477fb74432dc649743dcb40314a32d0" style="width: 100.0%; height: 100.0%;"><b>진주성 의암</b><br>임진왜란 진주성 전투·논개</div>`)[0];
+                popup_f7da518893e52d2ff3105421bc539e65.setContent(html_5477fb74432dc649743dcb40314a32d0);
+            
+        
+
+        marker_eccf49009bdb0c24e549628334959c5a.bindPopup(popup_f7da518893e52d2ff3105421bc539e65)
+        ;
+
+        
+    
+    
+            marker_eccf49009bdb0c24e549628334959c5a.bindTooltip(
+                `<div>
+                     진주성 의암
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eccf49009bdb0c24e549628334959c5a.setIcon(icon_cfa044451f28144a35613a74996b9f56);
+            
+    
+            var marker_c84c555e57f87ab77711d4a04f3014da = L.marker(
+                [34.8888, 128.6222],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_94fe1eaf5f12f1ff4c1c22820e79b8a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e26a7eb78491addcc054a3162eefa5f = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_e8ccdf35fae0811a9bb4f26a55326721 = $(`<div id="html_e8ccdf35fae0811a9bb4f26a55326721" style="width: 100.0%; height: 100.0%;"><b>거제 포로수용소 유적공원</b><br>한국전쟁 포로수용소</div>`)[0];
+                popup_0e26a7eb78491addcc054a3162eefa5f.setContent(html_e8ccdf35fae0811a9bb4f26a55326721);
+            
+        
+
+        marker_c84c555e57f87ab77711d4a04f3014da.bindPopup(popup_0e26a7eb78491addcc054a3162eefa5f)
+        ;
+
+        
+    
+    
+            marker_c84c555e57f87ab77711d4a04f3014da.bindTooltip(
+                `<div>
+                     거제 포로수용소 유적공원
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c84c555e57f87ab77711d4a04f3014da.setIcon(icon_94fe1eaf5f12f1ff4c1c22820e79b8a4);
+            
+    
+            var marker_e171f151752258914d527e6606d3d0ac = L.marker(
+                [37.184, 128.463],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_a82b5fe24253c2f9ab5bd789dfdcfe6c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_50864b53fa8217a3876c0f40e8ac8c01 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_cebba1b35c2393909c4637da780faf95 = $(`<div id="html_cebba1b35c2393909c4637da780faf95" style="width: 100.0%; height: 100.0%;"><b>영월 관풍헌</b><br>단종이 사사된 곳</div>`)[0];
+                popup_50864b53fa8217a3876c0f40e8ac8c01.setContent(html_cebba1b35c2393909c4637da780faf95);
+            
+        
+
+        marker_e171f151752258914d527e6606d3d0ac.bindPopup(popup_50864b53fa8217a3876c0f40e8ac8c01)
+        ;
+
+        
+    
+    
+            marker_e171f151752258914d527e6606d3d0ac.bindTooltip(
+                `<div>
+                     영월 관풍헌
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e171f151752258914d527e6606d3d0ac.setIcon(icon_a82b5fe24253c2f9ab5bd789dfdcfe6c);
+            
+    
+            var marker_1ff09e7d729d45ad8ca9901a07db8765 = L.marker(
+                [35.9873, 126.7106],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_7d3e3955e4c59a023c665b8356d6a824 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_783e77b0a21ed611f83131e0178efc46 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_e7d16bcf246ac6bde9542f9a041e218e = $(`<div id="html_e7d16bcf246ac6bde9542f9a041e218e" style="width: 100.0%; height: 100.0%;"><b>군산 히로쓰 가옥</b><br>일제강점기 일본식 가옥</div>`)[0];
+                popup_783e77b0a21ed611f83131e0178efc46.setContent(html_e7d16bcf246ac6bde9542f9a041e218e);
+            
+        
+
+        marker_1ff09e7d729d45ad8ca9901a07db8765.bindPopup(popup_783e77b0a21ed611f83131e0178efc46)
+        ;
+
+        
+    
+    
+            marker_1ff09e7d729d45ad8ca9901a07db8765.bindTooltip(
+                `<div>
+                     군산 히로쓰 가옥
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1ff09e7d729d45ad8ca9901a07db8765.setIcon(icon_7d3e3955e4c59a023c665b8356d6a824);
+            
+    
+            var marker_0d89cfc95bd21e8442c2851ab6b3fdcf = L.marker(
+                [34.7886, 126.3826],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_bde442d2461373df80d84a6ef4d860ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c9afd5f88f73620c79ec56b174ebc18 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_941f62fcc6cdcfc7458e979892f5a2a5 = $(`<div id="html_941f62fcc6cdcfc7458e979892f5a2a5" style="width: 100.0%; height: 100.0%;"><b>목포 구 일본영사관</b><br>근대역사관 1관</div>`)[0];
+                popup_0c9afd5f88f73620c79ec56b174ebc18.setContent(html_941f62fcc6cdcfc7458e979892f5a2a5);
+            
+        
+
+        marker_0d89cfc95bd21e8442c2851ab6b3fdcf.bindPopup(popup_0c9afd5f88f73620c79ec56b174ebc18)
+        ;
+
+        
+    
+    
+            marker_0d89cfc95bd21e8442c2851ab6b3fdcf.bindTooltip(
+                `<div>
+                     목포 구 일본영사관
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0d89cfc95bd21e8442c2851ab6b3fdcf.setIcon(icon_bde442d2461373df80d84a6ef4d860ed);
+            
+    
+            var marker_e56b431b3cba115415fd178bed6060ca = L.marker(
+                [35.0985, 129.0133],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_4065e348795e8a404ed0c8f8ac9c952b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa46c5b0b4dca31172be3717e74be38b = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_789b21ac6191486a86f990cb8724f3b1 = $(`<div id="html_789b21ac6191486a86f990cb8724f3b1" style="width: 100.0%; height: 100.0%;"><b>부산 아미동 비석문화마을</b><br>일본인 공동묘지 위에 지은 마을</div>`)[0];
+                popup_aa46c5b0b4dca31172be3717e74be38b.setContent(html_789b21ac6191486a86f990cb8724f3b1);
+            
+        
+
+        marker_e56b431b3cba115415fd178bed6060ca.bindPopup(popup_aa46c5b0b4dca31172be3717e74be38b)
+        ;
+
+        
+    
+    
+            marker_e56b431b3cba115415fd178bed6060ca.bindTooltip(
+                `<div>
+                     부산 아미동 비석문화마을
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e56b431b3cba115415fd178bed6060ca.setIcon(icon_4065e348795e8a404ed0c8f8ac9c952b);
+            
+    
+            var marker_670b1a12ac77d0fad752ad5c867839fe = L.marker(
+                [33.2046, 126.2905],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_239fe4777215ad3f7e99675b09dba522 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7383809c1146126fe0b8af1f913051f7 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_53e6f1e40d8b4742850fe905c7c3b0ae = $(`<div id="html_53e6f1e40d8b4742850fe905c7c3b0ae" style="width: 100.0%; height: 100.0%;"><b>제주 알뜨르 비행장</b><br>일제 격납고</div>`)[0];
+                popup_7383809c1146126fe0b8af1f913051f7.setContent(html_53e6f1e40d8b4742850fe905c7c3b0ae);
+            
+        
+
+        marker_670b1a12ac77d0fad752ad5c867839fe.bindPopup(popup_7383809c1146126fe0b8af1f913051f7)
+        ;
+
+        
+    
+    
+            marker_670b1a12ac77d0fad752ad5c867839fe.bindTooltip(
+                `<div>
+                     제주 알뜨르 비행장
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_670b1a12ac77d0fad752ad5c867839fe.setIcon(icon_239fe4777215ad3f7e99675b09dba522);
+            
+    
+            var marker_3f22470a6d4731d23a76e67929e1c6a9 = L.marker(
+                [35.4932, 128.748],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_98e402b434bf95249a067f8ae7cc02dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d1d9f9f94e7aff59fd3ad71b3c0fb275 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_ec0640813902a91e016ccfbf3b2516ad = $(`<div id="html_ec0640813902a91e016ccfbf3b2516ad" style="width: 100.0%; height: 100.0%;"><b>밀양 영남루 아랑각</b><br>아랑 전설</div>`)[0];
+                popup_d1d9f9f94e7aff59fd3ad71b3c0fb275.setContent(html_ec0640813902a91e016ccfbf3b2516ad);
+            
+        
+
+        marker_3f22470a6d4731d23a76e67929e1c6a9.bindPopup(popup_d1d9f9f94e7aff59fd3ad71b3c0fb275)
+        ;
+
+        
+    
+    
+            marker_3f22470a6d4731d23a76e67929e1c6a9.bindTooltip(
+                `<div>
+                     밀양 영남루 아랑각
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3f22470a6d4731d23a76e67929e1c6a9.setIcon(icon_98e402b434bf95249a067f8ae7cc02dc);
+            
+    
+            var marker_938cb64a76e97c9e3898b770dde397a6 = L.marker(
+                [37.179, 128.444],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_00187485286003296720ab50c6df1111 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16e8ac42a6f1e21739277590871432e7 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_437fc9f158aa037d67243f66ecb0de78 = $(`<div id="html_437fc9f158aa037d67243f66ecb0de78" style="width: 100.0%; height: 100.0%;"><b>영월 청령포</b><br>단종 유배지</div>`)[0];
+                popup_16e8ac42a6f1e21739277590871432e7.setContent(html_437fc9f158aa037d67243f66ecb0de78);
+            
+        
+
+        marker_938cb64a76e97c9e3898b770dde397a6.bindPopup(popup_16e8ac42a6f1e21739277590871432e7)
+        ;
+
+        
+    
+    
+            marker_938cb64a76e97c9e3898b770dde397a6.bindTooltip(
+                `<div>
+                     영월 청령포
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_938cb64a76e97c9e3898b770dde397a6.setIcon(icon_00187485286003296720ab50c6df1111);
+            
+    
+            var marker_3277d3e5021858827399c9d09358a030 = L.marker(
+                [37.1927, 128.4566],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_5982d27b0cff58b247cdaf3b3af1ed65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b1eb61aba92ef046be083c3ef364229 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_089a8e49dba4a2db0a56a37ca6ddb65a = $(`<div id="html_089a8e49dba4a2db0a56a37ca6ddb65a" style="width: 100.0%; height: 100.0%;"><b>영월 장릉</b><br>단종 무덤</div>`)[0];
+                popup_2b1eb61aba92ef046be083c3ef364229.setContent(html_089a8e49dba4a2db0a56a37ca6ddb65a);
+            
+        
+
+        marker_3277d3e5021858827399c9d09358a030.bindPopup(popup_2b1eb61aba92ef046be083c3ef364229)
+        ;
+
+        
+    
+    
+            marker_3277d3e5021858827399c9d09358a030.bindTooltip(
+                `<div>
+                     영월 장릉
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3277d3e5021858827399c9d09358a030.setIcon(icon_5982d27b0cff58b247cdaf3b3af1ed65);
+            
+    
+            var marker_12a374b821886108915a3c2f47988e00 = L.marker(
+                [36.2862, 126.9137],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_fe4d02f8512fa9b1206178e9bea22011 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4fab5eb4e1f67389c088cae0cb17d1ed = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_6908af584562d0045dc5aed89834fe93 = $(`<div id="html_6908af584562d0045dc5aed89834fe93" style="width: 100.0%; height: 100.0%;"><b>부여 낙화암</b><br>백제 삼천궁녀 전설</div>`)[0];
+                popup_4fab5eb4e1f67389c088cae0cb17d1ed.setContent(html_6908af584562d0045dc5aed89834fe93);
+            
+        
+
+        marker_12a374b821886108915a3c2f47988e00.bindPopup(popup_4fab5eb4e1f67389c088cae0cb17d1ed)
+        ;
+
+        
+    
+    
+            marker_12a374b821886108915a3c2f47988e00.bindTooltip(
+                `<div>
+                     부여 낙화암
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_12a374b821886108915a3c2f47988e00.setIcon(icon_fe4d02f8512fa9b1206178e9bea22011);
+            
+    
+            var marker_8cb70bdc33e457581ca2eb7ba11a739a = L.marker(
+                [36.462, 127.108],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_4998391bb0274cc6325ba473b3c189ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4766f3cc6efbb5ff4c87cb6a4ac44b9 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_6c45d7d903a01c1944fb8ee846397649 = $(`<div id="html_6c45d7d903a01c1944fb8ee846397649" style="width: 100.0%; height: 100.0%;"><b>공주 고마나루</b><br>곰 여인 전설</div>`)[0];
+                popup_f4766f3cc6efbb5ff4c87cb6a4ac44b9.setContent(html_6c45d7d903a01c1944fb8ee846397649);
+            
+        
+
+        marker_8cb70bdc33e457581ca2eb7ba11a739a.bindPopup(popup_f4766f3cc6efbb5ff4c87cb6a4ac44b9)
+        ;
+
+        
+    
+    
+            marker_8cb70bdc33e457581ca2eb7ba11a739a.bindTooltip(
+                `<div>
+                     공주 고마나루
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8cb70bdc33e457581ca2eb7ba11a739a.setIcon(icon_4998391bb0274cc6325ba473b3c189ed);
+            
+    
+            var marker_0f706431696f6f918c1b14c895c50a31 = L.marker(
+                [38.473, 128.441],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_add9492ee9f7e60de5f7638c3cf65e45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_863d52d6c9f0f38214150e24ad572ca8 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_989478dea0e308db52a2c83df44e40bd = $(`<div id="html_989478dea0e308db52a2c83df44e40bd" style="width: 100.0%; height: 100.0%;"><b>고성 화진포</b><br>화진포 이화진 전설</div>`)[0];
+                popup_863d52d6c9f0f38214150e24ad572ca8.setContent(html_989478dea0e308db52a2c83df44e40bd);
+            
+        
+
+        marker_0f706431696f6f918c1b14c895c50a31.bindPopup(popup_863d52d6c9f0f38214150e24ad572ca8)
+        ;
+
+        
+    
+    
+            marker_0f706431696f6f918c1b14c895c50a31.bindTooltip(
+                `<div>
+                     고성 화진포
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0f706431696f6f918c1b14c895c50a31.setIcon(icon_add9492ee9f7e60de5f7638c3cf65e45);
+            
+    
+            var marker_07860f74a2eac32c3b4a417cb03b6889 = L.marker(
+                [36.7637, 128.0761],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_6365564319b15136036c3d9ba856dbeb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d1601796725703305d40b10ed4289afa = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_926af78e36b746aa93d58f1b1001f5f4 = $(`<div id="html_926af78e36b746aa93d58f1b1001f5f4" style="width: 100.0%; height: 100.0%;"><b>문경새재 조령관문</b><br>과거길 선비 원혼 이야기</div>`)[0];
+                popup_d1601796725703305d40b10ed4289afa.setContent(html_926af78e36b746aa93d58f1b1001f5f4);
+            
+        
+
+        marker_07860f74a2eac32c3b4a417cb03b6889.bindPopup(popup_d1601796725703305d40b10ed4289afa)
+        ;
+
+        
+    
+    
+            marker_07860f74a2eac32c3b4a417cb03b6889.bindTooltip(
+                `<div>
+                     문경새재 조령관문
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_07860f74a2eac32c3b4a417cb03b6889.setIcon(icon_6365564319b15136036c3d9ba856dbeb);
+            
+    
+            var marker_8fb42f15ce781f159069935d1ac0cde7 = L.marker(
+                [37.5797, 126.9586],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_cd6fa4bbe76099428031e82b5501f707 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_afbe18e0d8c689e464560f7d6aad31ff = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_99ac5a02a1786a7dd4cf447e33290452 = $(`<div id="html_99ac5a02a1786a7dd4cf447e33290452" style="width: 100.0%; height: 100.0%;"><b>인왕산 선바위·국사당</b><br>무속 신앙지</div>`)[0];
+                popup_afbe18e0d8c689e464560f7d6aad31ff.setContent(html_99ac5a02a1786a7dd4cf447e33290452);
+            
+        
+
+        marker_8fb42f15ce781f159069935d1ac0cde7.bindPopup(popup_afbe18e0d8c689e464560f7d6aad31ff)
+        ;
+
+        
+    
+    
+            marker_8fb42f15ce781f159069935d1ac0cde7.bindTooltip(
+                `<div>
+                     인왕산 선바위·국사당
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8fb42f15ce781f159069935d1ac0cde7.setIcon(icon_cd6fa4bbe76099428031e82b5501f707);
+            
+    
+            var marker_18234c9cbf8198d4a43cc7055c64a9f0 = L.marker(
+                [37.46, 128.71],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_49e97e910ad3bacb834136551720d48b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a07a96cb3ecf4b5f8e0779e324f77a08 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_0687a184e676d83645f1f29a10d05500 = $(`<div id="html_0687a184e676d83645f1f29a10d05500" style="width: 100.0%; height: 100.0%;"><b>정선 아우라지</b><br>아우라지 처녀 전설</div>`)[0];
+                popup_a07a96cb3ecf4b5f8e0779e324f77a08.setContent(html_0687a184e676d83645f1f29a10d05500);
+            
+        
+
+        marker_18234c9cbf8198d4a43cc7055c64a9f0.bindPopup(popup_a07a96cb3ecf4b5f8e0779e324f77a08)
+        ;
+
+        
+    
+    
+            marker_18234c9cbf8198d4a43cc7055c64a9f0.bindTooltip(
+                `<div>
+                     정선 아우라지
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_18234c9cbf8198d4a43cc7055c64a9f0.setIcon(icon_49e97e910ad3bacb834136551720d48b);
+            
+    
+            var marker_b9afa3cf7c7d9834645a3293fb1524de = L.marker(
+                [35.111, 129.0],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_f731639b261487695172480c150161ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4447e1068292716d032555ec1b2c31cc = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_e92d245b7dfe2b5ce363ab5fca3f2229 = $(`<div id="html_e92d245b7dfe2b5ce363ab5fca3f2229" style="width: 100.0%; height: 100.0%;"><b>부산 구덕터널</b><br>터널 귀신 괴담</div>`)[0];
+                popup_4447e1068292716d032555ec1b2c31cc.setContent(html_e92d245b7dfe2b5ce363ab5fca3f2229);
+            
+        
+
+        marker_b9afa3cf7c7d9834645a3293fb1524de.bindPopup(popup_4447e1068292716d032555ec1b2c31cc)
+        ;
+
+        
+    
+    
+            marker_b9afa3cf7c7d9834645a3293fb1524de.bindTooltip(
+                `<div>
+                     부산 구덕터널
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b9afa3cf7c7d9834645a3293fb1524de.setIcon(icon_f731639b261487695172480c150161ef);
+            
+    
+            var marker_f1a16a3066b4dec6656f1cd5d067dd47 = L.marker(
+                [37.712, 126.72],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_2ef4de0ab3207641ecff55ca963aa224 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f07dcc48208f81ec625ad493b7b4d426 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_95fffe92fab1eda67760f59eb72532bf = $(`<div id="html_95fffe92fab1eda67760f59eb72532bf" style="width: 100.0%; height: 100.0%;"><b>자유로 귀신 구간</b><br>자유로 귀신 괴담(구간 대략)</div>`)[0];
+                popup_f07dcc48208f81ec625ad493b7b4d426.setContent(html_95fffe92fab1eda67760f59eb72532bf);
+            
+        
+
+        marker_f1a16a3066b4dec6656f1cd5d067dd47.bindPopup(popup_f07dcc48208f81ec625ad493b7b4d426)
+        ;
+
+        
+    
+    
+            marker_f1a16a3066b4dec6656f1cd5d067dd47.bindTooltip(
+                `<div>
+                     자유로 귀신 구간
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f1a16a3066b4dec6656f1cd5d067dd47.setIcon(icon_2ef4de0ab3207641ecff55ca963aa224);
+            
+    
+            var marker_b3e144ab8f536d5f1a276d913cbe9ab2 = L.marker(
+                [37.382, 126.835],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_3db500c40ff68f0186bf55bc0e786f6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b57481cc0b2ffade2ec5524a328a336 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_1570ff672f79bfc23c347a47250221eb = $(`<div id="html_1570ff672f79bfc23c347a47250221eb" style="width: 100.0%; height: 100.0%;"><b>시흥 물왕저수지</b><br>저수지 귀신 괴담</div>`)[0];
+                popup_5b57481cc0b2ffade2ec5524a328a336.setContent(html_1570ff672f79bfc23c347a47250221eb);
+            
+        
+
+        marker_b3e144ab8f536d5f1a276d913cbe9ab2.bindPopup(popup_5b57481cc0b2ffade2ec5524a328a336)
+        ;
+
+        
+    
+    
+            marker_b3e144ab8f536d5f1a276d913cbe9ab2.bindTooltip(
+                `<div>
+                     시흥 물왕저수지
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b3e144ab8f536d5f1a276d913cbe9ab2.setIcon(icon_3db500c40ff68f0186bf55bc0e786f6b);
+            
+    
+            var marker_bfd7e3528d88eacb36225e8051ef0c51 = L.marker(
+                [33.4556, 126.4913],
+                {
+}
+            ).addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+            var icon_e6328006ea80346f5fc42185f4fabfb8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da1338c029367656787bcd93ae11ddfb = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_97a0d23641b28d9960b4553100996259 = $(`<div id="html_97a0d23641b28d9960b4553100996259" style="width: 100.0%; height: 100.0%;"><b>제주 도깨비도로</b><br>오르막처럼 보이는 내리막 착시</div>`)[0];
+                popup_da1338c029367656787bcd93ae11ddfb.setContent(html_97a0d23641b28d9960b4553100996259);
+            
+        
+
+        marker_bfd7e3528d88eacb36225e8051ef0c51.bindPopup(popup_da1338c029367656787bcd93ae11ddfb)
+        ;
+
+        
+    
+    
+            marker_bfd7e3528d88eacb36225e8051ef0c51.bindTooltip(
+                `<div>
+                     제주 도깨비도로
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bfd7e3528d88eacb36225e8051ef0c51.setIcon(icon_e6328006ea80346f5fc42185f4fabfb8);
+            
+    
+            tile_layer_6d7618fab22b1d695e9b8b14986214f8.addTo(map_0ad811a25be991dd10767d8d58d872dd);
+        
+    
+                marker_44f2b36f644c5371c34c63d36d67db97.setIcon(icon_2c337b1664e981dd2a1623236fedad31);
+            
+    
+                marker_35e5ec2294dce490c8ed1346fb375e45.setIcon(icon_1d616ae131ce88cfb12633a9c467d870);
+            
+    
+                marker_145edb605f63156489c20f8a7714b388.setIcon(icon_001821335fba75a5775dc538bd05ec4e);
+            
+    
+                marker_ed5b6c395036fc532e8126a212f1b5fc.setIcon(icon_12c13a60e8ecef580d98184959db410e);
+            
+    
+                marker_75197589c8c65ee2307687c5f39e636e.setIcon(icon_684904a0c28441b76bb054fabcbdc333);
+            
+    
+                marker_6f102c565b13a4035bfce714a7164a7c.setIcon(icon_c607232ace200cdfb04b71a7765b0e1e);
+            
+    
+                marker_981e429d4a16b475f76ad21a4a53c316.setIcon(icon_223444ffef2b1dc46621407d8acfae95);
+            
+    
+                marker_3908c69f575efb6f5417d9b9241a8fd1.setIcon(icon_dbd33fb1e4b706554b92c216ddb30995);
+            
+    
+                marker_76651ae3a0a72e9f9d948c0dccdc7ef5.setIcon(icon_8fc7f1be7eb9574ec5f5f783adb86e93);
+            
+    
+                marker_e75eb827d2de9f69775def5102c0ca63.setIcon(icon_0acdd5d9c0406734d2dabccc8305f91f);
+            
+    
+                marker_3f98996854fa4c2839886e83af1a7993.setIcon(icon_379a26d7ac39dfdc886595de80398516);
+            
+    
+                marker_3b44656b442c3a606e2e17a0254c4e41.setIcon(icon_9c4998e3ba6d9f751839795a8194e1df);
+            
+    
+                marker_6c1c0a4fb3f11b38c9f07784fd6272da.setIcon(icon_16f156ade155c5e589fdbbc542c91043);
+            
+    
+                marker_dee782bc68a95c54814a1cfe3b8f57bf.setIcon(icon_6334a2f6cc3f416701c714a0e564c568);
+            
+    
+                marker_4e2eda1602499662976203c6ac055220.setIcon(icon_167e616a94d5dd54607f0d6deb94e987);
+            
+    
+                marker_d2de303e071cf26e8ef26b71703d68f7.setIcon(icon_69bc06d6fe52f61ca8bd3c1a75539290);
+            
+    
+                marker_10edae070bdee10e1615953d4832e7e9.setIcon(icon_5847504a7c3e8494e984e093e8af1922);
+            
+    
+                marker_3043f00402f3777b0c5bcc32b3d877f5.setIcon(icon_792900f6aaa9d64acfe01c8f64711b6f);
+            
+    
+                marker_fba63a858c49f6aa7557abd796bf2835.setIcon(icon_16f0761313c7f28b48b63b65f48a6c60);
+            
+    
+                marker_3013e4a42363a03d50c713124e4d6954.setIcon(icon_8a56f3ebe9d05dbb4d41e168c2c30134);
+            
+    
+                marker_1b23f70d0d33b9e74358de04f6b73a94.setIcon(icon_a5559c12d744d6174aba060e9a30911c);
+            
+    
+                marker_262ea039bf261f5db233a571495cb426.setIcon(icon_3431870e2ed6057fcb4761bb42ae17f8);
+            
+    
+                marker_80621ced6f42a1c67d9fcb97c5308202.setIcon(icon_c9f8fbc1ffed5e1e288bb869d16722e8);
+            
+    
+                marker_eccf49009bdb0c24e549628334959c5a.setIcon(icon_cfa044451f28144a35613a74996b9f56);
+            
+    
+                marker_c84c555e57f87ab77711d4a04f3014da.setIcon(icon_94fe1eaf5f12f1ff4c1c22820e79b8a4);
+            
+    
+                marker_e171f151752258914d527e6606d3d0ac.setIcon(icon_a82b5fe24253c2f9ab5bd789dfdcfe6c);
+            
+    
+                marker_1ff09e7d729d45ad8ca9901a07db8765.setIcon(icon_7d3e3955e4c59a023c665b8356d6a824);
+            
+    
+                marker_0d89cfc95bd21e8442c2851ab6b3fdcf.setIcon(icon_bde442d2461373df80d84a6ef4d860ed);
+            
+    
+                marker_e56b431b3cba115415fd178bed6060ca.setIcon(icon_4065e348795e8a404ed0c8f8ac9c952b);
+            
+    
+                marker_670b1a12ac77d0fad752ad5c867839fe.setIcon(icon_239fe4777215ad3f7e99675b09dba522);
+            
+    
+                marker_3f22470a6d4731d23a76e67929e1c6a9.setIcon(icon_98e402b434bf95249a067f8ae7cc02dc);
+            
+    
+                marker_938cb64a76e97c9e3898b770dde397a6.setIcon(icon_00187485286003296720ab50c6df1111);
+            
+    
+                marker_3277d3e5021858827399c9d09358a030.setIcon(icon_5982d27b0cff58b247cdaf3b3af1ed65);
+            
+    
+                marker_12a374b821886108915a3c2f47988e00.setIcon(icon_fe4d02f8512fa9b1206178e9bea22011);
+            
+    
+                marker_8cb70bdc33e457581ca2eb7ba11a739a.setIcon(icon_4998391bb0274cc6325ba473b3c189ed);
+            
+    
+                marker_0f706431696f6f918c1b14c895c50a31.setIcon(icon_add9492ee9f7e60de5f7638c3cf65e45);
+            
+    
+                marker_07860f74a2eac32c3b4a417cb03b6889.setIcon(icon_6365564319b15136036c3d9ba856dbeb);
+            
+    
+                marker_8fb42f15ce781f159069935d1ac0cde7.setIcon(icon_cd6fa4bbe76099428031e82b5501f707);
+            
+    
+                marker_18234c9cbf8198d4a43cc7055c64a9f0.setIcon(icon_49e97e910ad3bacb834136551720d48b);
+            
+    
+                marker_b9afa3cf7c7d9834645a3293fb1524de.setIcon(icon_f731639b261487695172480c150161ef);
+            
+    
+                marker_f1a16a3066b4dec6656f1cd5d067dd47.setIcon(icon_2ef4de0ab3207641ecff55ca963aa224);
+            
+    
+                marker_b3e144ab8f536d5f1a276d913cbe9ab2.setIcon(icon_3db500c40ff68f0186bf55bc0e786f6b);
+            
+    
+                marker_bfd7e3528d88eacb36225e8051ef0c51.setIcon(icon_e6328006ea80346f5fc42185f4fabfb8);
+            
+</script>
+</html>
